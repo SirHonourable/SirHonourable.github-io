@@ -1,0 +1,35 @@
+img {
+    width: 30%;
+    margin: calc(10%/6);
+    border-radius: 2em;
+
+}
+
+body {
+    background-color: rgb(36, 75, 75);
+}
+
+nav {
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    margin-left: calc(10%/6);
+    width: 30%;
+    padding: 1.2em 0;
+    font-family: 'Silkscreen', cursive;
+    font-size: 1.5em;
+
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border-radius: 2em;
+    opacity: .88;
+}
+
+nav:hover {
+    color: rgb(107, 189, 162);
+    transition: 2s;
+    border-bottom: 3px solid rgb(107, 189, 162);
+}
